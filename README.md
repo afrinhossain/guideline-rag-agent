@@ -32,7 +32,7 @@ Response:
   "vector_length": 384,
   "first_5_values": [0.02, -0.11, 0.33, 0.04, -0.07]
 }
-
+```
 ### `POST /search`
 Performs semantic retrieval over a small in-memory document set.
 
@@ -41,7 +41,7 @@ Example request:
 {
   "text": "I have a headache and light bothers me"
 }
-
+```
 Response:
 ```json
 {
@@ -50,7 +50,7 @@ Response:
   "best_doc_text": "Migraine is often a severe headache with nausea and sensitivity to light.",
   "score": 0.87
 }
-
+```
 ## To run the project
 
 ### Install dependencies
@@ -59,7 +59,7 @@ Response:
 {
     pip install fastapi uvicorn sentence-transformers numpy
     }
-
+```
 ### Start the FastAPI server
 
 
@@ -67,5 +67,5 @@ Response:
 {
     uvicorn app:app --reload
     }
-
+```
 ### Start the FastAPI server
