@@ -25,7 +25,7 @@ Returns the embedding vector length and a small preview of the vector.
 Example request:
 ```json
 { "text": "hello world" }
-
+```
 Response:
 ```json
 {
